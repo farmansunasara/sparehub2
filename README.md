@@ -67,8 +67,8 @@ After each successful deployment, the latest APK is available for download:
 
 - **Backend API:** [https://your-backend.onrender.com](https://your-backend.onrender.com)
 - **Demo Account:**
-  - Username: `demo_user`
-  - Password: `demo_pass`
+  - Username: `demo@gmail.com`
+  - Password: `Demo@123`
 
 ---
 
@@ -136,6 +136,6 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-For support or business inquiries, contact [your-email@example.com](mailto:your-email@example.com)
+For support or business inquiries, contact [farmansunasara07@gmai.com.com](mailto:farmansunasara07@gmail.com)
 
 ---
