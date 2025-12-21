@@ -59,7 +59,33 @@ After each successful deployment, the latest APK is available for download:
 
 [![Download Android APK](https://img.shields.io/badge/Download-Android%20APK-green?logo=android)](https://github.com/farmansunasara/sparehub-b2b-platform/releases/latest/download/app-release.apk)
 
-> The APK is built and uploaded automatically by the CI/CD pipeline. You can always find the latest version in the [Releases](https://github.com/farmansunasara/sparehub-b2b-platform/releases) section.
+> **Automatic Release Process:**  
+> APKs are automatically built and attached to GitHub Releases whenever a version tag (e.g., `v1.0.0`) is pushed to the repository. The release workflow builds the Flutter app in release mode and uploads the APK as a release asset.
+>
+> You can always find the latest version in the [Releases](https://github.com/farmansunasara/sparehub-b2b-platform/releases) section.
+
+### 🔨 Manual APK Build
+
+If you need to build the APK manually:
+
+```bash
+# Navigate to the Flutter app directory
+cd sparehubapps
+
+# Get dependencies
+flutter pub get
+
+# Build the APK in release mode
+flutter build apk --release
+
+# The APK will be available at:
+# sparehubapps/build/app/outputs/flutter-apk/app-release.apk
+```
+
+To manually upload the APK to a GitHub Release:
+1. Create a new release on GitHub with a version tag (e.g., `v1.0.0`)
+2. Upload the APK file from `sparehubapps/build/app/outputs/flutter-apk/app-release.apk` as a release asset
+3. Publish the release
 
 ---
 
